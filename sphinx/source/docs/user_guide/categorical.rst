@@ -239,7 +239,7 @@ Bokeh:
 .. bokeh-plot:: docs/user_guide/examples/categorical_bar_pandas_groupby_colormapped.py
     :source-position: above
 
-Not that in the example above, we grouped by the column ``'cyl'`` so our CDS
+Note that in the example above, we grouped by the column ``'cyl'`` so our CDS
 has a column ``'cyl'`` for this index. Additionally, other non-grouped columns
 like ``'mpg'`` have had associated columns such ``'mpg_mean'`` added, that
 give the mean MPG value for each group.
